@@ -24,7 +24,7 @@ def pascal(n):
 
 if __name__ == '__main__':
     p = pascal(10)
-    width = len('-'.join(['%s' % num for num in p[-1]]))
+    width = len(' '.join(['%s' % n for n in p[-1]]))
     
     #each line add seperation
     for l in p:
